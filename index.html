@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="main.js"></script>	
 </head>
-<body style="overflow-x : hidden;">
+<body style="overflow-x: hidden;">
 	<center><img src="images/b3.jpg" id="banner" width="100%"></center>
 
 	<div class="mactitle"><img src="images/icon.svg" id="icon">MacBook Air</div>
@@ -13,7 +13,7 @@
 
 	<center>
 		<div id="header1">iCalc.</div><br><br>
-		<div id="header2">Make big things happen.<br>All day long.</div>
+		<div class="header2">Make big things happen.<br>All day long.</div>
 		<div id="quote"><img src="images/quote.png" id="quoteimg"><br>If you want to improve your self-worth, stop giving other people the calculator.<br>-Tim Fargo.</div>
 		<div class="calcbranch">
 			<img src="images/calcbg.jpg" width="1000px" height="1056px">
@@ -72,18 +72,27 @@
 					    <td onclick="ans()" class="symbols">Ans</td>
 					    <td onclick="equal()" class="symbols">=</td>
 				    </tr>
-					<tr>
+				    <tr>
 				    	<td class="mfunc" onclick="LCMfinder()" colspan="2">LCM</td>
 				    	<td class="mfunc" onclick="input(',')">,</td>
 				    	<td class="mfunc" onclick="HCFfinder()" colspan="2">HCF</td>
 				    </tr>
 				</table>
 			</div>
+		</div></center>
+		<div class="rules" style="position: relative; top: -100px;"><ul>
+				<p class="header2">Getting started : </p>
+				<li>iCalc successfully follows BODMAS rule, and other rules of mathematics.</li>
+				<li>Click on the Number buttons for displaying them on the screen.</li>
+				<li>You can use DEL to delete one character at a time on the screen.</li>
+				<li>Use AC to clear the screen at once.</li>
+				<li>Click on Shift to access a different set of functions, namely the inverse trigonometric functions, the natural logarithm, and the constant e.</li>
+				<li>For finding out the HCF or LCM of two numbers, write "first number,second number" on the screen and then press HCF or LCM.</li>
+				<li>For more than two numbers, take any two numbers,find there LCM or HCF (say it is x), now write "x,next number" on the screen and press LCM or HCF. And so on.</li>
+				<li>You need not close the parentheses if it is the end of the statement.</li>
+
+			</ul>
 		</div>
-		<div class="rules">
-			
-		</div>
-	</center>
 
 	
 </body>
