@@ -1,0 +1,137 @@
+@font-face {
+	
+	font-family:'SF Pro Display';
+	font-style:normal;
+	font-weight:300;
+	src:local('☺︎'), url("/wss/fonts/SF-Pro-Display/v1/sf-pro-display_light.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Display/v1/sf-pro-display_light.woff") format("woff"), url("/wss/fonts/SF-Pro-Display/v1/sf-pro-display_light.ttf") format("truetype");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+}
+@font-face {
+	font-family:'SF Pro Icons';
+	font-style:normal;
+	font-weight:500;
+	src:local('☺︎'), url("/wss/fonts/SF-Pro-Icons/v1/SFProIcons_medium.woff") format("woff"), url("/wss/fonts/SF-Pro-Icons/v1/SFProIcons_medium.ttf") format("truetype");
+	/* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+ul {
+	font-size: 28px;
+	line-height: 1;
+	font-weight: 500;
+	letter-spacing: 0.009em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: light;
+	font-style: italic;
+	}
+.mactitle {
+	font-size: 24px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    cursor: default;
+    display: block;
+   	color: rgba(0,0,0,0.85); 
+    padding: 0;
+    position: relative;
+    left: 200px;
+    
+}
+
+#icon {
+	width: 48px;
+	height: 48px;
+	margin:0;
+}
+#header1 {
+	font-size: 28px;
+	line-height: 1;
+	font-weight: 500;
+	letter-spacing: 0.009em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	display: block;
+	position: relative;
+	top: 30px;
+}
+.header2 {
+	font-size: 60px;
+	line-height: 1;
+	font-weight: 500;
+	letter-spacing: .009em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	display: block;
+	line-height: 75px;
+	
+}
+#quote {
+	font-size: 24px;
+	line-height: 1;
+	font-weight: 300;
+	letter-spacing: 0.009em;
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	display: block;
+	position: relative;
+	color: rgba(0,0,0,0.6);
+	font-style: italic;
+}
+#quoteimg {
+	float: left; 
+	width: 41px; 
+	height: 30px;
+	position: relative;
+	left: 200px;
+}
+.calc {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+p {
+    font-size: 0px
+    
+}
+td {
+    width: 95px; 
+    height: 50px; 
+    text-align: center; 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: black; 
+    padding: 0;
+    
+}
+td:hover {
+    background-color: #333333;
+  	color: #fff;
+}
+input {
+	float: left;
+    width: 98%; 
+    height: 100%; 
+    border: none; 
+    font-size: 25px; 
+    font-weight: bold; 
+    padding: 0px 5px;
+    background-color : #e6e6e6;
+    
+}
+#shiftBtn {
+    background-color: #404040;
+    color: #fff;
+}
+.number {
+	background-color: #cccccc;
+}
+.symbols {
+	background-color: #ff6600;
+	color: #fff;
+}
+.trig {
+	background-color: #ff6600;
+	color: #ffffff;
+}
+.mfunc {
+	background-color: #999999;
+	color: #000;
+}
