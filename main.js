@@ -31,6 +31,31 @@ function shiftFn(ken) {
         arr[28].setAttribute("onclick", "piOrE('pi')") ;
     }
 }
+function hcf(x,y){
+    if (x==0 || y==0) return 0;
+    if (x==y) return x;
+    if (x>y) return hcf(x-y,y);
+    else return hcf(x,y-x);
+}
+
+function lcm(x,y){
+    return (x*y)/hcf(x,y);
+}
+
+function LCMfinder(){
+    var x=document.getElementById("result");
+    var y=document.getElementById("myPara");
+    var n=lcm(x.value.split(',')[0],x.value.split(',')[1]);
+    ac();
+    input(n);
+}
+function HCFfinder(){
+    var x=document.getElementById("result");
+    var y=document.getElementById("myPara");
+    var n=hcf(x.value.split(',')[0],x.value.split(',')[1]);
+    ac();
+    input(n);
+}
 
 function input(sun) {
     var x = document.getElementById("result") ;
