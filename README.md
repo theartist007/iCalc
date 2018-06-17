@@ -26,8 +26,8 @@ It is a a Mac-themed scientific calculator, designed to smoothly suit your needs
 ## Usage
 
 * Click on Shift to access a different set of functions, namely the inverse trigonometric functions, the natural logarithm, and the constant e.
-* For finding out the HCF or LCM of two numbers, write "first number,second number" on the screen and then press HCF or LCM.
-* For more than two numbers, take any two numbers,find there LCM or HCF (say it is x), now write "x,next number" on the screen and press LCM or HCF. And so on.
+* For finding out the HCF or LCM of two numbers, write **"first number,second number"** on the screen and then press HCF or LCM.
+* For more than two numbers, take any two numbers,find there LCM or HCF (say it is x), now write **"x,next number"** on the screen and press LCM or HCF. And so on.
 
 ## Issues
 
