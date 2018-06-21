@@ -1,6 +1,6 @@
 # iCalc
 My tribute to Apple : A fully functional Mac-themed scientific calculator
-
+![iCalc](images/readmebanner.png)
 ## Why ?
 Last Sunday, I was watching the movie "**Jobs**", the 2013 biographical movie on **Steve Jobs**, the man behind Apple. Not that I didn't expect that, but I was awestruck by the mind behind the glittery success the world sees.
 **Ashton Kutcher** did a phenomenal work, as he stepped into the shoes of this eccentric genius.
@@ -17,4 +17,6 @@ It is a a Mac-themed scientific calculator, designed to smoothly suit your needs
 * **HCF** and **LCM**   
 * **Trigonometric Functions** and **Inverse Trigonometric Functions** are supported.
 * **Logarithm** (base 10 and base e)
-* **Factorial** 
+* **Factorial**
+* **Answer** can be stored and used later
+ 
