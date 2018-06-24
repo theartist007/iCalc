@@ -14,4 +14,7 @@ It is a a Mac-themed scientific calculator, designed to smoothly suit your needs
 ## Features
 
 * Uses **BODMAS** rule for solving complex operations.
-* Trigonometric Functions and Inverse Trigonometric Functions are supported.
+* **HCF** and **LCM**   
+* **Trigonometric Functions** and **Inverse Trigonometric Functions** are supported.
+* **Logarithm** (base 10 and base e)
+* **Factorial** 
