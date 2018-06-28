@@ -11,5 +11,7 @@ Hence, iCalc.
 ## What is it ?
 It is a a Mac-themed scientific calculator, designed to smoothly suit your needs. The user interface is pretty simple, and decent, with black and white shades soothing your conscience.
 
+## Features
 
+* Uses **BODMAS** rule for solving complex operations.
 
